@@ -1,0 +1,53 @@
+:root{
+    --blanco:#ffffff;
+    --oscuro:#212121;
+    --primario:#839788;
+    --secundario:#bad4ea;
+    --cafe: #baa898;
+    --beige:#eee0cb;
+    --prueba: red;
+}
+
+html{ /**Esta parte del codigo se usa en todos los proyectos **/
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem; 
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+/** Es comun tenerlo en los styles**/
+.contenedor{
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+/**cualquiera de los dos es valido e igual**/
+/** cuando los valores se repiten puedes dejar solo uno**/
+    margin: 0 auto 0 auto;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    
+}
+
+
+.navegacion-principal a{
+    background-color: var(--primario);
+}
